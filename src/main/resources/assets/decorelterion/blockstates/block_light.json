@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "variant=campfire_fire": { "model": "decorelterion:campfire_fire"},
+    "variant=beacon": { "model": "decorelterion:beacon" }
+      }
+}

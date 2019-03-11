@@ -1,0 +1,18 @@
+{
+"ambientocclusion": false,
+"textures": {
+    "particle": "decorelterion:blocks/iron_bars",
+    "bars": "decorelterion:blocks/scale",
+    "edge": "decorelterion:blocks/iron_bars"
+},
+"elements": [ 
+{
+    "from": [ 8, 0, 0 ],
+    "to": [ 8.0625, 16, 16 ],
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bars" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#bars" }
+    }
+}
+]
+}

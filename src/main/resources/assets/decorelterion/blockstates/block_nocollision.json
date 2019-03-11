@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "variant=wooden_bucket": { "model": "decorelterion:wooden_bucket" },
+    "variant=hand_unlitcandle": { "model": "decorelterion:hand_unlitcandle" },
+    "variant=scale": { "model": "decorelterion:scale" },
+    "variant=wooden_tankard": { "model": "decorelterion:wooden_tankard" },
+    "variant=pitchfork": { "model": "decorelterion:pitchfork" },
+    "variant=extremehills": { "model": "decorelterion:extremehills" },
+    "variant=cheese_cut": { "model": "decorelterion:cheese_cut" }
+      }
+}
