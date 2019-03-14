@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "variant=wooden_stool": { "model": "decorelterion:wooden_stool" },
-    "variant=empty_crate": { "model": "decorelterion:empty_crate" },    
-    "variant=rocks_schist": { "model": "decorelterion:rocks_schist" }
-      }
-}
