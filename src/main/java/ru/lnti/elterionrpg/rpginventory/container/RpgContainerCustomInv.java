@@ -35,16 +35,6 @@ public class RpgContainerCustomInv  extends Container {
     
     public RpgContainerCustomInv(InventoryPlayer playerInventory, RpgCustomInventory cInventory, EntityPlayer player) {
     	
-        this.thePlayer = player;
-        this.addSlotToContainer(new SlotCrafting(playerInventory.player, this.craftMatrix, this.craftResult, 0, 153, 39));
-
-        for (int i = 0; i < 2; ++i)
-        {
-            for (int j = 0; j < 2; ++j)
-            {
-                this.addSlotToContainer(new Slot(this.craftMatrix, j + i * 2, 97 + j * 18, 18 + i * 18+11));
-            }
-        }
         this.addSlotToContainer(new BaubleSlot(this, player, cInventory, 0, 65, 8, EnumBaubleType.AMULET){
             @Nullable
             @SideOnly(Side.CLIENT)
@@ -146,6 +136,16 @@ public class RpgContainerCustomInv  extends Container {
                 return "minecraft:items/empty_armor_slot_shield";
             }
         });
+        this.thePlayer = player;
+        this.addSlotToContainer(new SlotCrafting(playerInventory.player, this.craftMatrix, this.craftResult, 0, 153, 39));
+
+        for (int i = 0; i < 2; ++i)
+        {
+            for (int j = 0; j < 2; ++j)
+            {
+                this.addSlotToContainer(new Slot(this.craftMatrix, j + i * 2, 97 + j * 18, 18 + i * 18+11));
+            }
+        }
     }
     
     public void onCraftMatrixChanged(IInventory inventoryIn)
